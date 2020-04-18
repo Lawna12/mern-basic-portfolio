@@ -3,6 +3,8 @@ import React from "react";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import Headshot from "../images/headshot1.jpeg"
+
 
 export default function Index() {
     return(
@@ -12,7 +14,7 @@ export default function Index() {
                     <Col size="md-12">
                         <div className="main-section">
                             <h1>About Me</h1>
-                            <img id="port-pic"  src="./assets/images/headshot1.jpeg" />
+                            <img src={Headshot} id="port-pic" alt="headshot" />
                             <p>A little bit about myself. It’s easiest to sum up my life in three areas. Family, Fun, and Future. I would like to start with the most important: </p>
                             <br />
                             <p>Family. I am the middle of five kids. My parents were military, both served in the Air Force. I am an uncle to 5 nephews, my older brother has 3 boys, and my youngest sister has 2 boys. </p>

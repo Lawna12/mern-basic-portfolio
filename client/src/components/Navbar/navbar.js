@@ -11,14 +11,52 @@ export default function Navbar() {
           <button className="dropbtn">Menu
               <i class="fa fa-caret-down"></i>
           </button>
-            <div className="dropdown-content">
-                <a href="./index.html">About</a>
-                <a href="./contact.html">Contact</a>
-                <a href="./portfolio.html">Portfolio</a>
-                <a href="./resume.html">Resume</a>
-                <a href="https://www.linkedin.com/in/andrew-lawn-78a1013b">LinkedIn</a>
-                <a href="https://github.com/Lawna12">GitHub</a>
-            </div>
+            <ul className="dropdown-content">
+                <li>
+                  <Link 
+                    to="/" 
+                    className={
+                      window.location.pathname === "/" || window.location.pathname === "/about"
+                        ? "nav-link active"
+                        : "nav-link"
+                    } 
+                  >
+                    About    
+                  </Link>
+                </li>
+                <li>
+                  <Link 
+                    to="/contact" 
+                    className={
+                      window.location.pathname === "/contact" ? "nav-link active" : "nav-link"
+                    } 
+                  >
+                    Contact    
+                  </Link>
+                </li>
+                <li>
+                  <Link 
+                    to="/portfolio" 
+                    className={
+                      window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"
+                    } 
+                  >
+                    Portfolio    
+                  </Link>
+                </li>
+                <li>
+                  <Link 
+                    to="/resume" 
+                    className={
+                      window.location.pathname === "/resume" ? "nav-link active" : "nav-link"
+                    } 
+                  >
+                    Resume    
+                  </Link>
+                </li>
+                <li><a href="https://www.linkedin.com/in/andrew-lawn-78a1013b">LinkedIn</a></li>
+                <li><a href="https://github.com/Lawna12">GitHub</a></li>
+            </ul>
         </div>
     </nav> 
   );

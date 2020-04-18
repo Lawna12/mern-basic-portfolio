@@ -1,0 +1,14 @@
+h1 {
+    font-weight: bold;
+    padding: 30px;
+    border-bottom: #cccccc 5px solid;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#port-pic {
+    width: 170px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
