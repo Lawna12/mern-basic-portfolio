@@ -1,0 +1,11 @@
+#main-head {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    padding: 17.5px;
+    border-bottom: #cccccc 3px solid;
+}
