@@ -60,3 +60,12 @@ h1 {
     width: 272px;
     height: 198px;
 }
+
+  /* Resume */
+
+  #resume{
+    display: inline-block;
+    align-content: center;
+    margin-top: 60px;
+    margin: auto;
+  }
