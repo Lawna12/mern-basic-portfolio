@@ -6,14 +6,16 @@ import Col from "../components/Col";
 
 export default function Resume() {
     return(
-        <div id="resume">
-            <Container id="main-container" className="container">
-                <Row>
-                    <Col size="md-12">
-                    <embed src="../images/resumeJan2020.pdf" type="application/pdf"   height="700px" width="600" />
-                    </Col>
-                </Row>
-            </Container>
-        </div>
+        <div>
+        <Container id="main-container" className="container">
+            <Row>
+                <Col size="md-12">
+                    <div id="resume" className="main-section">
+                        
+                    </div>
+                </Col>
+            </Row>
+        </Container>
+    </div>
         )
 }
