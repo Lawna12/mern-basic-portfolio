@@ -1,10 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import HeatWave from "../images/HeatWaveKY.png"
 import MyGarage from "../images/Garage-Rend_03_A.jpg"
-
 import PassGen from "../images/passGen.jpg"
 import BurgerApp from "../images/burgers.png"
 import DayPlanner from "../images/dayPlanner2pm.jpg"

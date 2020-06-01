@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
-import ResumePDF from "../images/resumeJan2020.pdf"
+import ResumePDF from "../images/AndrewLawnResumeJune2020"
 
 
 
