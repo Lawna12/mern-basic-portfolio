@@ -79,7 +79,7 @@ export default function Portfolio() {
                                 </div>
 
                                 <div class="col-md-4">    
-                                    <a href="https://serene-scrubland-32480.herokuapp.com/members.html" class="work" id="workImg">
+                                    <a href="https://lawna12-employee-directory1.herokuapp.com/" class="work" id="workImg">
                                     <img src={EmpDirectory} className="auth-image" alt="EmpDirectory" />
                                     <h3>Employee Dir</h3>
                                     </a>
