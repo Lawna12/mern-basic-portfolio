@@ -40,7 +40,7 @@ export default function Portfolio() {
                                 </div>
 
                                 <div class="col-md-4">
-                                    <a href='https://github.com/smaji08/myGarage' class="work" id="workImg">
+                                    <a href='https://lit-scrubland-58683.herokuapp.com/mygarage-kaera' class="work" id="workImg">
                                     <img src={MyGarage} className="auth-image" alt="DayPlanner" />
                                     <h3>P3. My Garage</h3>
                                     </a>
